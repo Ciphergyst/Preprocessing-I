@@ -1,23 +1,4 @@
-/*
 
-CSS File TOC
-------------------------
-
-1. CSS Reset
-2. Common
-3. Header
-   3.1 Contact Form
-4. Contents
-   4.1  Main Panel
-   4.2  Sidebar Panel
-
-*/
-
-
-
-/*========================*/
-/*===  1. CSS Reset    ===*/
-/*========================*/
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -32,10 +13,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 }
 
-
-/*========================*/
-/*===  2. Common       ===*/
-/*========================*/
 
 
 #wrapper {
@@ -60,6 +37,7 @@ h1 {
 	text-align:left;
 	float:left;
 	font-weight:bold;
+
 }
 
 h2 {
@@ -67,6 +45,7 @@ h2 {
 	text-align:left;
 	font-weight:bold;
 	line-height:50px;
+
 }
 
 h3 {
@@ -135,9 +114,6 @@ li {
 	font-weight:bold;
 }
 
-/*========================*/
-/*===  3. Header       ===*/
-/*========================*/
 
 .header {
 	width:100%;
@@ -156,9 +132,6 @@ li {
 }
 
 
-/*===========================*/
-/*===  3.1 Contact Form   ===*/
-/*===========================*/ 
 
 #contact-form {
 }
@@ -269,10 +242,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 }
 
 
-/*===========================*/
-/*===  4. Contents        ===*/
-/*===  4.1 Main Panel     ===*/
-/*===========================*/
 
 #contents {
 	width:100%;
@@ -329,15 +298,13 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	text-align:center;
 }
 
-/*===========================*/
-/*===  4.2 Sidebar Panel  ===*/
-/*===========================*/
+
 
 #sidebar {
 	width:260px;
 	float:left;
 	margin-left:94px;
-	/* Change margin-left:94px; to margin-right:94px; for layout 2 */
+
 }
 
 .contact_Info_items {
@@ -367,14 +334,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	background:url(../images/msg.png) no-repeat;
 }
 
-.skype_icon {
-	background:url(../images/skype.png) no-repeat;
-	height:21px;
-}
 
-.twitter_icon {
-	background:url(../images/twitter.png) no-repeat;
-}
 
 .locate_icon {
 	background:url(../images/locate.png) no-repeat;
@@ -550,32 +510,137 @@ ul.testimonialList cite {
 	background-position: -18px -36px;
 }
 
-/* Email Notification */
-
 
 .success {
 	font-family:Tahoma, Arial; font-size:12px;
 
 	position:absolute;
 	margin:30px 0px 0px 400px;
-  
+
    background-color: #ECFFAA;
     background-image: url("../images/accept.png");
     background-position: 15px center;
     background-repeat: no-repeat;
     border: 2px solid #99C600;
-	
+
 	border-radius: 4px 4px 4px 4px;
     clear: both;
     cursor: pointer;
-  
+
     line-height: 40px;
   	 height: 40px;
     padding: 10px 20px 10px 60px;
 	width:600px;
- 
+
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#90d3d9;
+	color:#000;
+}
+#wrapper {
+	margin:0 auto;
+}
+
+a {
+	color:#000;
+}
+@font-face {
+	font-family:"Humnst777 Blk BT";
+	src: url(Hum777k.ttf);
+}
+
+@font-face {
+	font-family:"Humnst777 BT";
+	src: url(Hum777Bd.ttf);
+}
+
+@font-face {
+	font-family:"Freehand575 BT";
+	src: url(Freeh575.ttf);
+}
+
+@font-face {
+	font-family:"Glowworm";
+	src: url(GLOWWORM.ttf);
+}
+h1 {
+	color:#fff;
+	background-color:#90d3d9;
+	padding:5px;
+	font-family:"Humnst777 Blk BT";
+	text-shadow:2px 1px 1px #434343;
+}
+h2 {
+	color:#ffffff;
+	background-color:#90d3d9;
+	padding:5px;
+	font-family:"Humnst777 Blk BT";
+	text-shadow:2px 1px 1px #434343;
+}
+h3 {
+	color:#fff;
+	text-shadow:0px 1px 1px #434343;
+	font-family: Helvetica, sans-serif;
+}
+h4 {
+	color:#b45a09;
+	font-weight:normal;
+}
+h5 {
+	color:#fff;
+	background-color: #404042;
+	padding-left:10px;
+	font-family: Helvetica, sans-serif;
+	border-radius:5px;
+}
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#414143;
+	font-weight:normal;
+}
+
+
+
+.header {
+	background-image:none;
+}
+#topPanel {
+	background-color: #1a1a1a !important;
+	border-bottom:1px solid #000;
+}
+#topPanelHandle {
+	background-color:#1a1a1a !important;
 }
 
 
 
 
+.education_items h6, .references h6 {
+	color:#000;
+}
+.education_items p {
+color:#414143;
+}
+li {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.year {
+	color:#414143;
+}
+
+.tag {
+	color:#fff;
+	background:#5fb053;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/tag-blue.png) no-repeat !important;
+}
+.winner_tag {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/winner-blue.png) no-repeat !important;
+}
