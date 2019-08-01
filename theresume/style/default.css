@@ -13,7 +13,36 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 }
 
+ul#list-nav {
+  margin:10px;
+  margin-left: 40px;
+  padding:0;
+  list-style:none;
+  width:525px;
+  width: 100%
 
+}
+
+ul#list-nav li {
+  display:inline
+}
+
+ul#list-nav li a {
+ text-decoration:none;
+ padding:5px 0;
+ width:100px;
+ background:#404042;
+ color:#eee;
+ float:left;
+}
+ul#list-nav li a {
+  text-align:center;
+  border-left:1px solid #fff;
+}
+ul#list-nav li a:hover {
+  background:#a2b3a1;
+  color:#000
+}
 
 
 #wrapper {
@@ -38,6 +67,7 @@ h1 {
 	text-align:left;
 	float:left;
 	font-weight:bold;
+
 }
 
 h2 {
@@ -333,14 +363,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	background:url(../images/msg.png) no-repeat;
 }
 
-.skype_icon {
-	background:url(../images/skype.png) no-repeat;
-	height:21px;
-}
 
-.twitter_icon {
-	background:url(../images/twitter.png) no-repeat;
-}
 
 .locate_icon {
 	background:url(../images/locate.png) no-repeat;
@@ -396,9 +419,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	padding:25px 0px 25px 0px;
 }
 
-.twitter_feed {
-	padding:25px 0px 25px 0px;
-}
+
+
 
 .best_work_gallery {
 	width:76px;
@@ -573,21 +595,21 @@ a {
 	src: url(GLOWWORM.ttf);
 }
 h1 {
-	color:#fff;
+	color:#808080;
 	background-color:#90d3d9;
 	padding:5px;
 	font-family:"Humnst777 Blk BT";
 	text-shadow:2px 1px 1px #434343;
 }
 h2 {
-	color:#ffffff;
+	color:#2F4F4F;
 	background-color:#90d3d9;
 	padding:5px;
 	font-family:"Humnst777 Blk BT";
 	text-shadow:2px 1px 1px #434343;
 }
 h3 {
-	color:#fff;
+	color:#2F4F4F;
 	text-shadow:0px 1px 1px #434343;
 	font-family: Helvetica, sans-serif;
 }
