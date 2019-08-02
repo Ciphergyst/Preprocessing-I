@@ -602,6 +602,8 @@ h1 {
 	padding:5px;
 	font-family:"Humnst777 Blk BT";
 	text-shadow:2px 1px 1px #434343;
+	text-align: center;
+	margin-left: 70px;
 }
 h2 {
 	color:#2F4F4F;
@@ -609,6 +611,7 @@ h2 {
 	padding:5px;
 	font-family:"Humnst777 Blk BT";
 	text-shadow:2px 1px 1px #434343;
+	margin-left: 40px;
 }
 h3 {
 	color:#2F4F4F;
