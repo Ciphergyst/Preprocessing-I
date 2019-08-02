@@ -1,12 +1,4 @@
-{
 
-"main": ~/Desktop/lambda-projects/Preprocessing-I/theresume/style/less
-"out": boolean|string - true
-"compress": boolean
-"strictMath": boolean|object - true
-"sourceMap": boolean|object - true
-"cleancss": string|object
-"autoprefix": string|object }
 
 
 // Is this working?s
@@ -64,6 +56,58 @@ table {
     box-sizing: border-box;
 }
 
+@media only screen and (max-width:500px){
+	#wrapper {
+		width:300px;
+		margin: 0 auto;
+		padding: 0, 10px;
+		display:flex;
+	}
+	.header {
+		width: 100%;
+		height: 60px;
+		margin: 0 auto;
+		line-height: 15px;
+	}
+	.headerwrapper {
+		width: 850px;
+		display: flex;
+		margin: 0 auto;
+		padding: 0px 0px 0px 0px;
+		height: 113px;
+		margin: 0 auto;
+  }
+  h1 {
+	color: #A9A9A9  //Variable//
+	font-size: 10px;
+	text-align: left;
+	float: left;
+	font-weight: bold;
+  }
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	ul {
+		list-style: none;
+		display:flex;
+		flex-direction: column;
+		align-content: center;
+		text-align: center;
+	}
+	li {
+		list-style: none;
+		line-height: 10px;
+		font-size: 8px;
+		margin-bottom: 6px;
+
+
+
+}
+
+
 html, body {
     height: 100%;
 
@@ -72,63 +116,62 @@ html, body {
 		width: device-width;
 
 #wrapper {
-	@width: 850px;
-	@margin: 0 auto;
+	width: 850px;
+	margin: 0 auto;
 	padding: 0px 40px;
-	   @media (max-width: 500px) {
-			 width: 100%;
-		 }
+
 }
+
 img {
 	border: none;
 }
 p {
-	@font-size: 12px;
-	@width: 90%;
-	@text-align: justify;
-	@line-height: 20px;
-	@font-size: 11px;
-	@text-align: justify;
-	@line-height: 20px;
-	@padding: 0;
+	font-size: 12px;
+	width: 90%;
+	text-align: justify;
+	line-height: 20px;
+	font-size: 11px;
+	text-align: justify;
+	line-height: 20px;
+	padding: 0;
 }
 h1 {
-	@color: #A9A9A9  //Variable//
-	@font-size: 50px;
-	@text-align: left;
-	@float: left;
-	@font-weight: bold;
+	color: #A9A9A9  //Variable//
+	font-size: 50px;
+	text-align: left;
+	float: left;
+	font-weight: bold;
 }
 h2 {
-	@font-size: 40px;
-	@text-align: left;
-	@font-weight: bold;
-	@line-height: 50px;
+	font-size: 40px;
+	text-align: left;
+	font-weight: bold;
+	line-height: 50px;
 }
 h3 {
-	@font-size: 20px;
-	@text-align: left;
-	@line-height: 25px;
-	@font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	line-height: 25px;
+	font-weight: bold;
 }
 h4 {
-	@font-size: 14px;
-	@text-align: left;
-	@line-height: 22px;
+	font-size: 14px;
+	text-align: left;
+	line-height: 22px;
 }
 h5 {
-	@font-size: 18px;
-	@text-align: left;
-	@line-height: 35px;
-	@font-weight: bold;
-	@text-indent: 0px;
+	font-size: 18px;
+	text-align: left;
+	line-height: 35px;
+	font-weight: bold;
+	text-indent: 0px;
 }
 h6 {
-	@font-size: 14px;
-	@text-align: left;
-	@line-height: 22px;
-	@padding: 0;
-	@margin: 0;
+	font-size: 14px;
+	text-align: left;
+	line-height: 22px;
+	padding: 0;
+	margin: 0;
 }
 a {
 	text-decoration: none;
@@ -141,11 +184,11 @@ ul {
 }
 li {
 	list-style: none;
-	@line-height: 18px;
-	@font-size: 11px;
-	@margin-bottom: 9px;
+	line-height: 18px;
+	font-size: 11px;
+	margin-bottom: 9px;
 }
-@mixin .clearfix {
+.clearfix {
 	visibility: hidden;
 	clear: both;
 	height: 0;
@@ -154,89 +197,89 @@ li {
 	font-weight: bold;
 }
 .header {
-	@width: 100%;
-	@height: 149px;
-	@margin: 0 auto;
-	@line-height: 35px;
+	width: 100%;
+	height: 149px;
+	margin: 0 auto;
+	line-height: 35px;
 }
 .headerwrapper {
-	@width: 850px;
+	width: 850px;
 	display: block;
-	@margin: 0 auto;
-	@padding: 36px 0px 0px 0px;
-	@height: 113px;
+	margin: 0 auto;
+	padding: 36px 0px 0px 0px;
+	height: 113px;
 	margin: 0 auto;
 }
 #form_errors {
-	@font-family: Tahoma, Helvetica, sans-serif;
-	@font-size: 12px;
-	@color: #FFBFBF;
-	@width: 200px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFBFBF;
+	width: 200px;
 }
 #form_thanks {
-	@font-family: Tahoma, Helvetica, sans-serif;
-	@font-size: 12px;
-	@color: #E5FFBF;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #E5FFBF;
 }
 #contact-form {
 	label {
-		@font-family: Tahoma, Helvetica, sans-serif;
-		@font-size: 12px;
+		font-family: Tahoma, Helvetica, sans-serif;
+		font-size: 12px;
 	}
 	input[type=text] {
 		display: inline-block;
-		@outline: 0 none;
-		@height: 32px;
-		@width: 180px;
-		@margin: 0;
-		@padding: 8px 10px;
-		@overflow: hidden;
-		@border: 1px solid;
-		@font: 9pt/100% Arial, Helvetica, sans-serif;
-		@color: #777;
-		@text-shadow: 1px 1px 0px #fff;
-		@text-overflow: ellipsis;
-		@white-space: nowrap;
+		outline: 0 none;
+		height: 32px;
+		width: 180px;
+		margin: 0;
+		padding: 8px 10px;
+		overflow: hidden;
+		border: 1px solid;
+		font: 9pt/100% Arial, Helvetica, sans-serif;
+		color: #777;
+		text-shadow: 1px 1px 0px #fff;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
-		@border-radius: 5px;
-		@background: #f5f5f5;
-		@background: -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
-		@background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(100%, #f5f5f5));
-		@filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#f5f5f5', GradientType=0);
-		@border-color: #ccc;
+		border-radius: 5px;
+		background: #f5f5f5;
+		background: -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(100%, #f5f5f5));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#f5f5f5', GradientType=0);
+		border-color: #ccc;
 		-moz-box-shadow: 0px 0px 1px #fff inset;
 		-webkit-box-shadow: 0px 0px 1px #fff inset;
-		@box-shadow: 0px 0px 1px #fff inset;
+		box-shadow: 0px 0px 1px #fff inset;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 	textarea {
 		display: inline-block;
-		@outline: 0 none;
-		@height: 32px;
-		@width: 180px;
-		@margin: 0;
-		@padding: 8px 10px;
-		@overflow: hidden;
-		@border: 1px solid;
-		@font: 9pt/100% Arial, Helvetica, sans-serif;
-		@color: #777;
-		@text-shadow: 1px 1px 0px #fff;
-		@text-overflow: ellipsis;
+		outline: 0 none;
+		height: 32px;
+		width: 180px;
+		margin: 0;
+		padding: 8px 10px;
+		overflow: hidden;
+		border: 1px solid;
+		font: 9pt/100% Arial, Helvetica, sans-serif;
+		color: #777;
+		text-shadow: 1px 1px 0px #fff;
+		text-overflow: ellipsis;
 		white-space: nowrap;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
-		@border-radius: 5px;
-		@background: #f5f5f5;
-		@background: -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
-		@background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(100%, #f5f5f5));
-		@filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#f5f5f5', GradientType=0);
-		@border-color: #ccc;
+		border-radius: 5px;
+		background: #f5f5f5;
+		background: -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(100%, #f5f5f5));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#f5f5f5', GradientType=0);
+		border-color: #ccc;
 		-moz-box-shadow: 0px 0px 1px #fff inset;
 		-webkit-box-shadow: 0px 0px 1px #fff inset;
-		@box-shadow: 0px 0px 1px #fff inset;
+		box-shadow: 0px 0px 1px #fff inset;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -269,7 +312,7 @@ li {
 		box-shadow: 0px -1px 0px #999, 0px 1px 0px #e2e2e2, 0px 3px 3px rgba(0, 0, 0, 0);
 	}
 }
-@mixin .button {
+.button() {
 	font-size: 12px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -528,18 +571,8 @@ ul.testimonialList {
 	padding: 10px 20px 10px 60px;
 	width: 600px;
 }
-@font-face {
-	font-family: "Humnst777 Blk BT";
-	src: url(Hum777k.ttf);
-}
-@font-face {
-	font-family: "Humnst777 BT";
-	src: url(Hum777Bd.ttf);
-}
-@font-face {
-	font-family: "Freehand575 BT";
-	src: url(Freeh575.ttf);
-}
+
+
 @font-face {
 	font-family: "Glowworm";
 	src: url(GLOWWORM.ttf);
@@ -552,6 +585,22 @@ body {
 }
 
 @media screen and (max-width: 500px){
+	.header {
+		width:50%;
+		height:45px;
+		margin:0 auto;
+		line-height:15px;
+	}
+	#list-nav {
+		display:flex;
+		flex-flow: column;
+	}
+  h1 {
+		text-align:center;
+	}
+  h2 {
+		text-align:center;
+	}
 
 }
 
@@ -565,30 +614,39 @@ a {
 		color: #545454;
 	}
 }
-h1 {
+h1 () {
 	@color: #000080;
 	@font-size: 70px;
-	font-family: "Humnst777 Blk BT";
+	@font-family: "Humnst777 Blk BT";
 	@padding: 10px 10px 13px 10px;
 }
-h2 {
-	margin: -50px 0px 0px 230px !important;
-	font-family: "Freehand575 BT";
-	color: #545454;
-	font-size: 30px;
+h2 () {
+	@margin: -50px 0px 0px 230px !important;
+	@font-family: "Freehand575 BT";
+	@color: #545454;
+	@font-size: 30px;
 }
-h3 {
-	font-family: Helvetica, sans-serif;
+h3 () {
+	@font-family: Helvetica, sans-serif;
 }
-h4 {
-	color: #b45a09;
-	font-weight: normal;
+h4 () {
+	@color: #b45a09;
+	@font-weight: normal;
 }
-h5 {
-	color: #359CCF;
-	font-weight: bold;
-	font-family: Helvetica, sans-serif;
+h5 () {
+	@color: #359CCF;
+	@font-weight: bold;
+	@font-family: Helvetica, sans-serif;
 }
+//mixin with no CSS output//
+h1, h2, h3, h4, h5 {
+	.h1 (@color, @font-size, @font-family, @padding);
+	.h2 (@margin, @font-family, @color, @font-size,);
+	.h3 (@font-family);
+	.h4 (@color, @font-family);
+	.h5 (@color, @font-weight, @font-family);
+}
+
 #sidebar {
 	h5 {
 		color: #fff;
@@ -605,12 +663,14 @@ h6 {
 	color: #414143;
 	font-weight: normal;
 }
+//mixin 1 //
 #topPanel {
-	background-color: #359CCF !important;
+	@background-color: #359CCF !important;
+	#topPanelHandle {
+		background-color: @background-color;
 }
-#topPanelHandle {
-	background-color: #359CCF !important;
-}
+
+
 #contents {
 	margin-top: -50px;
 }

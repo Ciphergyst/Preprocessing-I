@@ -70,6 +70,8 @@ h1 {
 
 }
 
+
+
 h2 {
 	font-size:40px;
 	text-align:left;
@@ -596,14 +598,14 @@ a {
 }
 h1 {
 	color:#808080;
-	background-color:#90d3d9;
+	/* background-color:#90d3d9; */
 	padding:5px;
 	font-family:"Humnst777 Blk BT";
 	text-shadow:2px 1px 1px #434343;
 }
 h2 {
 	color:#2F4F4F;
-	background-color:#90d3d9;
+	/* background-color:#90d3d9; */
 	padding:5px;
 	font-family:"Humnst777 Blk BT";
 	text-shadow:2px 1px 1px #434343;
